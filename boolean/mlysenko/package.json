@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"overlay-pslg": "^1.0.0",
+		"poly-bool": "^1.0.0"
+	}
+}

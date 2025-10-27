@@ -1,0 +1,245 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      overlay-pslg:
+        specifier: ^1.0.0
+        version: 1.0.0
+      poly-bool:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  big-rat@1.0.4:
+    resolution: {integrity: sha512-AubEohDDrak6urvKkFMIlwPWyQbJ/eq04YsK/SNipH7NNiPCYchjQNvWYK5vyyMmtGXAmNmsAjIcfkaDuTtd8g==}
+
+  binary-search-bounds@2.0.5:
+    resolution: {integrity: sha512-H0ea4Fd3lS1+sTEB2TgcLoK21lLhwEJzlQv3IN47pJS976Gx4zoWe0ak3q+uYh60ppQxg9F16Ri4tS1sfD4+jA==}
+
+  bit-twiddle@1.0.2:
+    resolution: {integrity: sha512-B9UhK0DKFZhoTFcfvAzhqsjStvGJp9vYWf3+6SNTtdSQnvIgfkHbgHrg/e4+TH71N2GDu8tpmCVoyfrL1d7ntA==}
+
+  bn.js@4.12.2:
+    resolution: {integrity: sha512-n4DSx829VRTRByMRGdjQ9iqsN0Bh4OolPsFnaZBLcbi8iXcB+kJ9s7EnRt4wILZNV3kPLHkRVfOc/HvhC3ovDw==}
+
+  boundary-cells@2.0.2:
+    resolution: {integrity: sha512-/S48oUFYEgZMNvdqC87iYRbLBAPHYijPRNrNpm/sS8u7ijIViKm/hrV3YD4sx/W68AsG5zLMyBEditVHApHU5w==}
+
+  box-intersect@1.0.2:
+    resolution: {integrity: sha512-yJeMwlmFPG1gIa7Rs/cGXeI6iOj6Qz5MG5PE61xLKpElUGzmJ4abm+qsLpzxKJFpsSDq742BQEocr8dI2t8Nxw==}
+
+  cdt2d@1.0.0:
+    resolution: {integrity: sha512-pFKb7gVhpsI6onS5HUXRoqbBIJB4CJ+KPk8kgaIVcm0zFgOxIyBT5vzifZ4j1aoGVJS0U1A+S4oFDshuLAitlA==}
+
+  cell-orientation@1.0.1:
+    resolution: {integrity: sha512-DtEsrgP+donmPxpEZm7hK8zCPYDXAQ977ecJiE7G0gbTfnS6TZVBlief3IdRP/TZS1PVnJRGJTDdjSdV8mRDug==}
+
+  clean-pslg@1.1.2:
+    resolution: {integrity: sha512-bJnEUR6gRiiNi2n4WSC6yrc0Hhn/oQDOTzs6evZfPwEF/VKVXM6xu0F4n/WSBz7TjTt/ZK6I5snRM9gVKMVAxA==}
+
+  compare-cell@1.0.0:
+    resolution: {integrity: sha512-uNIkjiNLZLhdCgouF39J+W04R7oP1vwrNME4vP2b2/bAa6PHOj+h8yXu52uPjPTKs5RatvqNsDVwEN7Yp19vNA==}
+
+  compare-oriented-cell@1.0.1:
+    resolution: {integrity: sha512-9D7R2MQfsGGRskZAZF0TkJHt9eFNbFkZyVdVps+WUYxtRHgG77BLbieKgSkj7iEAb9PNDSU9QNa9MtigjQ3ktQ==}
+
+  double-bits@1.1.1:
+    resolution: {integrity: sha512-BCLEIBq0O/DWoA7BsCu/R+RP0ZXiowP8BhtJT3qeuuQEBpnS8LK/Wo6UTJQv6v8mK1fj8n90YziHLwGdM5whSg==}
+
+  dup@1.0.0:
+    resolution: {integrity: sha512-Bz5jxMMC0wgp23Zm15ip1x8IhYRqJvF3nFC0UInJUDkN1z4uNPk9jTnfCUJXbOGiQ1JbXLQsiV41Fb+HXcj5BA==}
+
+  nextafter@1.0.0:
+    resolution: {integrity: sha512-7PO+A89Tll2rSEfyrjtqO0MaI37+nnxBdnQcPypfbEYYuGaJxWGCqaOwQX4a3GHNTS08l1kazuiLEWZniZjMUQ==}
+
+  overlay-pslg@1.0.0:
+    resolution: {integrity: sha512-tyIOTVnzSdupWmksL33Ii5iWCorJ2AkxjR/7uIpvpy5gbPkaoAqDCO6tlggofXpFJUboEmNFq539Z1R/sTDzAQ==}
+
+  poly-bool@1.0.0:
+    resolution: {integrity: sha512-mTx1wAcWFlRv8n1Q595Yybfbu2+qNEI/Ce0Z5qbsd6/ohglSLf/hPZXACWOIRO/iU3Mij5mTg0AgHDVFwueqQw==}
+
+  poly-to-pslg@1.0.1:
+    resolution: {integrity: sha512-uG4Wq34cjZQieDsodd2GDqnDVL9CXf4gb+pxonfRDYY79+RuZfpAr0wx8Aig6bk+Nf3oU3LXNOdD60Gr7cwRfQ==}
+
+  pslg-to-poly@1.0.0:
+    resolution: {integrity: sha512-Ar1s3TxtQeU69KBVLRYGgNAUWuwPgt/eFAHqkMb8ZJgDFbTx/NcxQhTEoqfzUG7fQ96ZdC2yHk4Sge+cRZVxAg==}
+
+  rat-vec@1.1.1:
+    resolution: {integrity: sha512-FbxGwkQxmw4Jx41LR7yMOR+g8M9TWCEmf/SUBQVLuK2eh0nThnffF7IUualr3XE2x5F8AdLiCVeSGwXd4snfgg==}
+
+  reduce-simplicial-complex@1.0.0:
+    resolution: {integrity: sha512-t+nT7sHDtcxBx8TbglqfLsLKoFiSn9hp6GFojJEThHBAFv72wQeq/uRiPYZa4Xb8FR1Ye1foRcBV3Ki6bgm+pQ==}
+
+  robust-in-sphere@1.2.1:
+    resolution: {integrity: sha512-3zJdcMIOP1gdwux93MKTS0RiMYEGwQBoE5R1IW/9ZQmGeZzP7f7i4+xdcK8ujJvF/dEOS1WPuI9IB1WNFbj3Cg==}
+
+  robust-orientation@1.2.1:
+    resolution: {integrity: sha512-FuTptgKwY6iNuU15nrIJDLjXzCChWB+T4AvksRtwPS/WZ3HuP1CElCm1t+OBfgQKfWbtZIawip+61k7+buRKAg==}
+
+  robust-scale@1.0.2:
+    resolution: {integrity: sha512-jBR91a/vomMAzazwpsPTPeuTPPmWBacwA+WYGNKcRGSh6xweuQ2ZbjRZ4v792/bZOhRKXRiQH0F48AvuajY0tQ==}
+
+  robust-segment-intersect@1.0.1:
+    resolution: {integrity: sha512-QWngxcL7rCRLK7nTMcTNBPi/q+fecrOo6aOtTPnXjT/Dve5AK20DzUSq2fznUS+rCAxyir6OdPgDCzcUxFtJoQ==}
+
+  robust-subtract@1.0.0:
+    resolution: {integrity: sha512-xhKUno+Rl+trmxAIVwjQMiVdpF5llxytozXJOdoT4eTIqmqsndQqFb1A0oiW3sZGlhMRhOi6pAD4MF1YYW6o/A==}
+
+  robust-sum@1.0.0:
+    resolution: {integrity: sha512-AvLExwpaqUqD1uwLU6MwzzfRdaI6VEZsyvQ3IAQ0ZJ08v1H+DTyqskrf2ZJyh0BDduFVLN7H04Zmc+qTiahhAw==}
+
+  simplicial-complex-boundary@1.0.1:
+    resolution: {integrity: sha512-hz/AaVbs+s08EVoxlbCE68AlC6/mxFJLxJrGRMbDoTjz3030nhcOq+w5+f0/ZaU2EYjmwa8CdVKpiRVIrhaZjA==}
+
+  two-product@1.0.2:
+    resolution: {integrity: sha512-vOyrqmeYvzjToVM08iU52OFocWT6eB/I5LUWYnxeAPGXAhAxXYU/Yr/R2uY5/5n4bvJQL9AQulIuxpIsMoT8XQ==}
+
+  two-sum@1.0.0:
+    resolution: {integrity: sha512-phP48e8AawgsNUjEY2WvoIWqdie8PoiDZGxTDv70LDr01uX5wLEQbOgSP7Z/B6+SW5oLtbe8qaYX2fKJs3CGTw==}
+
+  typedarray-pool@1.2.0:
+    resolution: {integrity: sha512-YTSQbzX43yvtpfRtIDAYygoYtgT+Rpjuxy9iOpczrjpXLgGoyG7aS5USJXV2d3nn8uHTeb9rXDvzS27zUg5KYQ==}
+
+  union-find@1.0.2:
+    resolution: {integrity: sha512-wFA9bMD/40k7ZcpKVXfu6X1qD3ri5ryO8HUsuA1RnxPCQl66Mu6DgkxyR+XNnd+osD0aLENixcJVFj+uf+O4gw==}
+
+  uniq@1.0.1:
+    resolution: {integrity: sha512-Gw+zz50YNKPDKXs+9d+aKAjVwpjNwqzvNpLigIruT4HA9lMZNdMqs9x07kKHB/L9WRzqp4+DlTU5s4wG2esdoA==}
+
+snapshots:
+
+  big-rat@1.0.4:
+    dependencies:
+      bit-twiddle: 1.0.2
+      bn.js: 4.12.2
+      double-bits: 1.1.1
+
+  binary-search-bounds@2.0.5: {}
+
+  bit-twiddle@1.0.2: {}
+
+  bn.js@4.12.2: {}
+
+  boundary-cells@2.0.2: {}
+
+  box-intersect@1.0.2:
+    dependencies:
+      bit-twiddle: 1.0.2
+      typedarray-pool: 1.2.0
+
+  cdt2d@1.0.0:
+    dependencies:
+      binary-search-bounds: 2.0.5
+      robust-in-sphere: 1.2.1
+      robust-orientation: 1.2.1
+
+  cell-orientation@1.0.1: {}
+
+  clean-pslg@1.1.2:
+    dependencies:
+      big-rat: 1.0.4
+      box-intersect: 1.0.2
+      nextafter: 1.0.0
+      rat-vec: 1.1.1
+      robust-segment-intersect: 1.0.1
+      union-find: 1.0.2
+      uniq: 1.0.1
+
+  compare-cell@1.0.0: {}
+
+  compare-oriented-cell@1.0.1:
+    dependencies:
+      cell-orientation: 1.0.1
+      compare-cell: 1.0.0
+
+  double-bits@1.1.1: {}
+
+  dup@1.0.0: {}
+
+  nextafter@1.0.0:
+    dependencies:
+      double-bits: 1.1.1
+
+  overlay-pslg@1.0.0:
+    dependencies:
+      binary-search-bounds: 2.0.5
+      cdt2d: 1.0.0
+      clean-pslg: 1.1.2
+      simplicial-complex-boundary: 1.0.1
+
+  poly-bool@1.0.0:
+    dependencies:
+      overlay-pslg: 1.0.0
+      poly-to-pslg: 1.0.1
+      pslg-to-poly: 1.0.0
+
+  poly-to-pslg@1.0.1:
+    dependencies:
+      clean-pslg: 1.1.2
+
+  pslg-to-poly@1.0.0:
+    dependencies:
+      cdt2d: 1.0.0
+      simplicial-complex-boundary: 1.0.1
+
+  rat-vec@1.1.1:
+    dependencies:
+      big-rat: 1.0.4
+
+  reduce-simplicial-complex@1.0.0:
+    dependencies:
+      cell-orientation: 1.0.1
+      compare-cell: 1.0.0
+      compare-oriented-cell: 1.0.1
+
+  robust-in-sphere@1.2.1:
+    dependencies:
+      robust-scale: 1.0.2
+      robust-subtract: 1.0.0
+      robust-sum: 1.0.0
+      two-product: 1.0.2
+
+  robust-orientation@1.2.1:
+    dependencies:
+      robust-scale: 1.0.2
+      robust-subtract: 1.0.0
+      robust-sum: 1.0.0
+      two-product: 1.0.2
+
+  robust-scale@1.0.2:
+    dependencies:
+      two-product: 1.0.2
+      two-sum: 1.0.0
+
+  robust-segment-intersect@1.0.1:
+    dependencies:
+      robust-orientation: 1.2.1
+
+  robust-subtract@1.0.0: {}
+
+  robust-sum@1.0.0: {}
+
+  simplicial-complex-boundary@1.0.1:
+    dependencies:
+      boundary-cells: 2.0.2
+      reduce-simplicial-complex: 1.0.0
+
+  two-product@1.0.2: {}
+
+  two-sum@1.0.0: {}
+
+  typedarray-pool@1.2.0:
+    dependencies:
+      bit-twiddle: 1.0.2
+      dup: 1.0.0
+
+  union-find@1.0.2: {}
+
+  uniq@1.0.1: {}
