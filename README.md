@@ -1,6 +1,6 @@
 # Performance comparisons of https://github.com/tdewolff/canvas
 ## Boolean operation: union(europe, chile)
-![Boolean results graph](https://raw.githubusercontent.com/tdewolff/canvas_benchmarks/refs/heads/master/boolean/results.png)
+![union(europe,chile)](https://raw.githubusercontent.com/tdewolff/canvas_benchmarks/refs/heads/master/boolean/tdewolff.png)
 
 Benchmarks are performed with the Natural Earth 10m resolutions of countries from the European Union and Chile, projected both to UTM 33N and 19S respectively. The boolean operation of union(Europe,Chile) with a total of 87721 segments is evaluated 5 times and averaged.
 
@@ -11,4 +11,4 @@ Benchmarks are performed with the Natural Earth 10m resolutions of countries fro
 | [ioverlay](https://github.com/iShape-Rust/iOverlay) | 386.033689ms | 56463 |
 | [tdewolff](https://github.com/tdewolff/canvas) | 247.455731ms | 56998 |
 
-![union(europe,chile)](https://raw.githubusercontent.com/tdewolff/canvas_benchmarks/refs/heads/master/boolean/tdewolff.png)
+![Boolean results graph](https://raw.githubusercontent.com/tdewolff/canvas_benchmarks/refs/heads/master/boolean/results.png)
