@@ -253,6 +253,8 @@ func main() {
 		"tdewolff":  "https://github.com/tdewolff/canvas",
 	}
 
+	fmt.Println("Input:", maxSegs)
+	fmt.Println()
 	fmt.Println("| Library | Time | Polygon size |")
 	fmt.Println("| --- | --- | --- |")
 	for _, name := range names {

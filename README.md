@@ -2,6 +2,8 @@
 ## Boolean
 ![Boolean results graph](https://raw.githubusercontent.com/tdewolff/canvas_benchmarks/refs/heads/master/boolean/results.png)
 
+Benchmarks are performed with the Natural Earth 10m resolutions of countries from the European Union and Chile, projected both to UTM 33N and 19S respectively. The boolean operation of union(Europe,Chile) with a total of 87721 segments is evaluated 5 times and averaged.
+
 | Library | Time | Polygon size |
 | --- | --- | --- |
 | [ajohnson1](http://www.angusj.com/delphi/clipper/documentation/Docs/Overview/_Body.htm) | 341.832124ms | 56462 |
