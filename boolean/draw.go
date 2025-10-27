@@ -245,4 +245,27 @@ func main() {
 	ctx.DrawText(44.0, 90.0, canvas.NewTextLine(face, strings.Join(names, "\n"), canvas.Left))
 
 	renderers.Write("results.png", c, canvas.DPMM(10.0))
+
+	links := map[string]string{
+		"ajohnson1": "http://www.angusj.com/delphi/clipper/documentation/Docs/Overview/_Body.htm",
+		"ajohnson2": "https://github.com/AngusJohnson/Clipper2",
+		"ioverlay":  "https://github.com/iShape-Rust/iOverlay",
+		"tdewolff":  "https://github.com/tdewolff/canvas",
+	}
+
+	fmt.Println("| Library | Time | Polygon size |")
+	fmt.Println("| --- | --- | --- |")
+	for _, name := range names {
+		fmt.Printf("| [%v](%v) | %v | %v |\n", name, links[name], experiments[name][Z-1].T, countSegments(experiments[name][Z-1].Result))
+	}
+}
+
+func countSegments(polygons [][][][2]float64) int {
+	n := 0
+	for _, polygon := range polygons {
+		for _, ring := range polygon {
+			n += len(ring)
+		}
+	}
+	return n
 }
