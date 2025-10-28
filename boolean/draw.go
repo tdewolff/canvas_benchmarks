@@ -274,9 +274,9 @@ func main() {
 				}
 			}
 			if fastest {
-				fmt.Printf(" **%.6f** |", experiments[name][z].T.Seconds())
+				fmt.Printf(" **%.4f** |", experiments[name][z].T.Seconds())
 			} else {
-				fmt.Printf(" %.6f |", experiments[name][z].T.Seconds())
+				fmt.Printf(" %.4f |", experiments[name][z].T.Seconds())
 			}
 		}
 	}
