@@ -105,7 +105,7 @@ func exec(europe, chile canvas.Paths) (canvas.Paths, int, time.Duration) {
 
 	var n int
 	t := time.Now()
-	for ; n < 5; n++ {
+	for ; n < 10; n++ {
 		if 10*time.Second < time.Since(t) {
 			return nil, 2, 0
 		}

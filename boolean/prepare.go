@@ -79,7 +79,7 @@ func main() {
 }
 
 func writeFiles(name string, p *canvas.Path) error {
-	zs := []float64{1.0, 0.35, 0.1, 0.03, 0.01, 0.0035, 0.001, 0.0002, 0.0}
+	zs := []float64{1.0, 0.35, 0.1, 0.03, 0.01, 0.0035, 0.001, 0.0002, 0.00003, 0.0}
 	for z, vwSize := range zs {
 		p2 := p
 		if vwSize != 0.0 {

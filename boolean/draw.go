@@ -98,7 +98,7 @@ func main() {
 			ctx.DrawPath(0.0, 0.0, p)
 		}
 
-		renderers.Write(result.Name+".png", c, canvas.DPMM(20.0))
+		renderers.Write(result.Name+".png", c, canvas.DPMM(10.0))
 		results = append(results, result)
 	}
 
@@ -255,11 +255,32 @@ func main() {
 
 	fmt.Println("Input:", maxSegs)
 	fmt.Println()
-	fmt.Println("| Library | Time | Polygon size |")
-	fmt.Println("| --- | --- | --- |")
-	for _, name := range names {
-		fmt.Printf("| [%v](%v) | %v | %v |\n", name, links[name], experiments[name][Z-1].T, countSegments(experiments[name][Z-1].Result))
+	fmt.Printf("| Library |")
+	for z := 0; z < Z; z++ {
+		fmt.Printf(" %v |", europeSegs[z]+chileSegs[z])
 	}
+	fmt.Printf("\n| --- |")
+	for z := 0; z < Z; z++ {
+		fmt.Printf(" --- |")
+	}
+	for _, name := range names {
+		fmt.Printf("\n| [%v](%v) |", name, links[name])
+		for z := 0; z < Z; z++ {
+			fastest := true
+			for _, name2 := range names {
+				if name2 != name && experiments[name2][z].T < experiments[name][z].T {
+					fastest = false
+					break
+				}
+			}
+			if fastest {
+				fmt.Printf(" **%.6f** |", experiments[name][z].T.Seconds())
+			} else {
+				fmt.Printf(" %.6f |", experiments[name][z].T.Seconds())
+			}
+		}
+	}
+	fmt.Printf("\n")
 }
 
 func countSegments(polygons [][][][2]float64) int {

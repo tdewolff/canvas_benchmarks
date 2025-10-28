@@ -104,7 +104,7 @@ func exec(europe, chile clipper.Paths) (clipper.Paths, int, time.Duration) {
 	var succeeded bool
 
 	t := time.Now()
-	for ; n < 5; n++ {
+	for ; n < 10; n++ {
 		if 10*time.Second < time.Since(t) {
 			return nil, 2, 0
 		}

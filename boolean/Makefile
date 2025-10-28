@@ -5,7 +5,7 @@ all: clean
 	cd ajohnson1; go run run.go; cd ..
 	cd ajohnson2; go build; ./ajohnson2; cd ..
 	cd tdewolff; go run run.go; cd ..
-	cd ioverlay; cargo run; cd ..
+	cd ioverlay; cargo run --release; cd ..
 	go run draw.go
 
 clean:

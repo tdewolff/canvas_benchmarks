@@ -1,6 +1,9 @@
 # Performance comparison of polygon clipping/boolean operations libraries
+Run `make` to execute tests. You need Go and Rust installed.
 
 ## Libraries
+These are libraries that have been found and could possibly be added to the benchmarks:
+
 - C++: https://boolean.klaasholwerda.nl/bool.html
 - C++: https://www.boost.org/doc/libs/latest/libs/polygon/doc/index.htm
 - C++: http://www.angusj.com/delphi/clipper/documentation/Docs/Overview/_Body.htm (Clipper)

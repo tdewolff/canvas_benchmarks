@@ -58,10 +58,10 @@ fn main() {
     for z in 0..europe.len() {
         let now = Instant::now();
         let result = europe[z].overlay(&chile[z], OverlayRule::Union, FillRule::EvenOdd);
-        for _ in 1..5 {
+        for _ in 1..10 {
             _ = europe[z].overlay(&chile[z], OverlayRule::Union, FillRule::EvenOdd);
         }
-        let elapsed = now.elapsed()/5;
+        let elapsed = now.elapsed()/10;
 
         let json = Res{
             Name: "ioverlay".to_string(),
