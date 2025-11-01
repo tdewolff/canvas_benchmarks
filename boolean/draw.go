@@ -227,7 +227,9 @@ func main() {
 	for j, name := range names {
 		p := &canvas.Polyline{}
 		for i, run := range experiments[name] {
-			p.Add(xs[i], Height*float64(run.T)/float64(maxDur))
+			if i < len(xs) {
+				p.Add(xs[i], Height*float64(run.T)/float64(maxDur))
+			}
 		}
 		ctx.SetFillColor(canvas.Transparent)
 		ctx.SetStrokeColor(colors[j])
@@ -237,7 +239,9 @@ func main() {
 		ctx.SetFillColor(colors[j])
 		ctx.SetStrokeColor(canvas.Transparent)
 		for i, run := range experiments[name] {
-			ctx.DrawPath(35.0+xs[i], 15.0+Height*float64(run.T)/float64(maxDur), shapes[j])
+			if i < len(xs) {
+				ctx.DrawPath(35.0+xs[i], 15.0+Height*float64(run.T)/float64(maxDur), shapes[j])
+			}
 		}
 		ctx.DrawPath(40.0, 90.0-metrics.LineHeight*float64(j)+metrics.XHeight/2.0, shapes[j])
 	}
@@ -255,7 +259,7 @@ func main() {
 
 	fmt.Println("Input:", maxSegs)
 	fmt.Println()
-	fmt.Printf("| Library |")
+	fmt.Printf("| Segments |")
 	for z := 0; z < Z; z++ {
 		fmt.Printf(" %v |", europeSegs[z]+chileSegs[z])
 	}

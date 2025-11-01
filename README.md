@@ -4,7 +4,7 @@
 
 Benchmarks are performed with the Natural Earth 10m resolutions of countries from the European Union and Chile, projected both to UTM 33N and 19S respectively. The boolean operation of union(Europe,Chile) with different levels of detail (different numbers of segments) is evaluated 10 times and averaged. The results are in seconds.
 
-| Library | 255 | 447 | 935 | 1935 | 3935 | 7692 | 15763 | 34318 | 63809 | 87721 |
+| Segments | 255 | 447 | 935 | 1935 | 3935 | 7692 | 15763 | 34318 | 63809 | 87721 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ajohnson1](http://www.angusj.com/delphi/clipper/documentation/Docs/Overview/_Body.htm) | **0.0002** | 0.0006 | 0.0008 | 0.0021 | 0.0047 | 0.0103 | 0.0320 | 0.1022 | 0.2185 | 0.3362 |
 | [ajohnson2](https://github.com/AngusJohnson/Clipper2) | 0.0006 | 0.0012 | 0.0026 | 0.0052 | 0.0112 | 0.0224 | 0.0512 | 0.1117 | 0.2041 | 0.2693 |
